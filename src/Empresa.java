@@ -6,10 +6,10 @@ public class Empresa {
     List<Departamento> departamentos = new ArrayList<>();
 
     String dados(){
-        return String.format("=%20s          =","EMPRESA")+"\n" +
+        return  "========= EMPRESA ========"+"\n" +
                 "Razão Social: "+razaoSocial+"\n" +
                 "CNPJ: "+cnpj+"\n\n" +
-                String.format("=%20s          =","DEPARTAMENTO") + "\n" +
+                "====== DEPARTAMENTO ======" + "\n" +
                 departamentos()+"\n";
     }
 

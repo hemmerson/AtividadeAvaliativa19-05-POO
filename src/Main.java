@@ -30,6 +30,6 @@ public class Main {
         empresa.cnpj = "32.124.523/0001-99";
         empresa.departamentos.add(departamento1);
 
-        System.out.println(empresa.funcionario(estagiario1));
+        System.out.println(empresa.dados());
     }
 }
